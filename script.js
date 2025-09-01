@@ -139,7 +139,7 @@
   }
 
   // Theme
-  const THEME_KEY = 'rentx_theme';
+    const THEME_KEY = 'rentora_theme';
   function applyTheme(theme){
     if(theme==='dark'){ document.documentElement.classList.add('dark'); }
     else { document.documentElement.classList.remove('dark'); }
