@@ -86,7 +86,7 @@
           // Redirect to home page after a brief delay
           setTimeout(() => {
             window.location.href = 'index.html';
-          }, 1000);
+          }, 100);
         }
       });
     }
@@ -122,7 +122,7 @@
           // Redirect to home page after a brief delay
           setTimeout(() => {
             window.location.href = 'index.html';
-          }, 1000);
+          }, 100);
         }
       });
     }
@@ -528,7 +528,7 @@
     t.textContent = msg;
     t.classList.add('show');
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(()=> t.classList.remove('show'), 1800);
+    toastTimer = setTimeout(()=> t.classList.remove('show'), 180);
   }
 
   // Contact form
@@ -564,7 +564,7 @@
           document.body.classList.add('fade-out');
           setTimeout(() => {
             window.location.href = href;
-          }, 400); // Match CSS transition duration
+          }, 100); // Match CSS transition duration
         });
       }
     });
